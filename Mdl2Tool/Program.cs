@@ -32,11 +32,6 @@ namespace Mdl2Tool
             WriteToFile(@"..\..\..\Nuget\Content\Mdl2.xaml", sb.ToString());
         }
 
-//        <ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-//                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
-
-//</ResourceDictionary>
-
         private static StringBuilder CreateXamlFile(List<TemplarianClass> list)
         {
             var sb = new StringBuilder();
