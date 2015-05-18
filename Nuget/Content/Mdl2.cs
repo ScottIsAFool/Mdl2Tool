@@ -105,8 +105,8 @@ namespace Mdl2Tool
         public static string BoxHalfVertical => "&xE746;";
         public static string BoxSixteenth => "&xE743;";
         public static string BoxSmall => "&xE004;";
-        public static string Bus => "&xE806;";
         public static string Bus => "&xEB47;";
+        public static string BusOutline => "&xE806;";
         public static string Calculator => "&xE1D0;";
         public static string Calendar => "&xE163;";
         public static string CalendarDay => "&xE184;";
@@ -146,7 +146,7 @@ namespace Mdl2Tool
         public static string Clipboard => "&xE77F;";
         public static string Clock => "&xE121;";
         public static string Close => "&xE106;";
-        public static string ClosedCaption => "&xE7F0;";
+        public static string ClosedCaption => "&xE190;";
         public static string Cloud => "&xE753;";
         public static string Compare => "&xE11E;";
         public static string Computer => "&xE211;";
@@ -161,6 +161,7 @@ namespace Mdl2Tool
         public static string CursorDefault => "&xE8B0;";
         public static string Delete => "&xE107;";
         public static string Dialer => "&xE75F;";
+        public static string Diamond => "&xE18A;";
         public static string Direction => "&xE816;";
         public static string Disk => "&xE105;";
         public static string DiskAll => "&xEA35;";
@@ -263,6 +264,7 @@ namespace Mdl2Tool
         public static string LaptopMonitor => "&xE7F8;";
         public static string LaptopMonitorExtend => "&xE7F7;";
         public static string LaptopPrinter => "&xE772;";
+        public static string LaptopTablet => "&xE212;";
         public static string Layers => "&xE81E;";
         public static string Led => "&xE781;";
         public static string Library => "&xE1D3;";
@@ -275,7 +277,7 @@ namespace Mdl2Tool
         public static string ListCheckRtl => "&xEA98;";
         public static string ListCollapse => "&xE16A;";
         public static string ListExpand => "&xE169;";
-        public static string ListRtl => "&xEA42;";
+        public static string ListRtl => "&xE175;";
         public static string ListSelect => "&xE179;";
         public static string ListSelectRtl => "&xE1EC;";
         public static string ListSelectUp => "&xE17D;";
@@ -358,7 +360,7 @@ namespace Mdl2Tool
         public static string Refresh => "&xE117;";
         public static string Region => "&xE775;";
         public static string Remote => "&xE951;";
-        public static string Rename => "&xE8AC;";
+        public static string Rename => "&xE13E;";
         public static string Repeat => "&xE1CD;";
         public static string RepeatOnce => "&xE1CC;";
         public static string RotateClockwise => "&xE7AD;";

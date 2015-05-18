@@ -11,23 +11,28 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Ignore.txt" />
+    <Folder Include="Content\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="..\Nuget\Content\Mdl2.cs">
+      <Link>Content\Mdl2.cs</Link>
+    </Content>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>41b2e885-20a1-4ce2-ac00-974397e61384</ProjectGuid>
+    <ProjectGuid>b26766e9-a8dd-4b98-9d11-a31ebe23eda6</ProjectGuid>
   </PropertyGroup>
   <PropertyGroup>
     <NuProjPath Condition=" '$(NuProjPath)' == '' ">$(MSBuildExtensionsPath)\NuProj\</NuProjPath>
   </PropertyGroup>
   <Import Project="$(NuProjPath)\NuProj.props" Condition="Exists('$(NuProjPath)\NuProj.props')" />
   <PropertyGroup Label="Configuration">
-    <Id>ScottIsAFool.Mdl2</Id>
+    <Id>ScottIsAFool.Mdl2.Cs</Id>
     <Version>1.0.0</Version>
-    <Title>ScottIsAFool.Mdl2</Title>
+    <Title>ScottIsAFool.Mdl2.Cs</Title>
     <Authors>scott</Authors>
     <Owners>scott</Owners>
-    <Summary>ScottIsAFool.Mdl2</Summary>
-    <Description>ScottIsAFool.Mdl2</Description>
+    <Summary>ScottIsAFool.Mdl2.Cs</Summary>
+    <Description>ScottIsAFool.Mdl2.Cs</Description>
     <ReleaseNotes>
     </ReleaseNotes>
     <ProjectUrl>
@@ -35,7 +40,7 @@
     <LicenseUrl>
     </LicenseUrl>
     <Copyright>Copyright © scott</Copyright>
-    <Tags>ScottIsAFool.Mdl2</Tags>
+    <Tags>ScottIsAFool.Mdl2.Cs</Tags>
   </PropertyGroup>
   <Import Project="$(NuProjPath)\NuProj.targets" />
 </Project>

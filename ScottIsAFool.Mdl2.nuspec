@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>ScottIsAFool.Mdl2</id>
+        <version>1.0.1</version>
+        <title>ScottIsAFool.Mdl2</title>
+        <authors>scott</authors>
+        <owners>scott</owners>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>ScottIsAFool.Mdl2</description>
+        <summary>ScottIsAFool.Mdl2</summary>
+        <copyright>Copyright © scott</copyright>
+        <tags>ScottIsAFool.Mdl2</tags>
+        <dependencies>
+            <dependency id="ScottIsAFool.Mdl2.Xaml" version="1.0.0" />
+            <dependency id="ScottIsAFool.Mdl2.Cs" version="1.0.0" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="Ignore.txt" target="Ignore.txt" />
+    </files>
+</package>

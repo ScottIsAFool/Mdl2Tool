@@ -103,8 +103,8 @@
     <x:String x:Key="BoxHalfVertical">&xE746;</x:String>
     <x:String x:Key="BoxSixteenth">&xE743;</x:String>
     <x:String x:Key="BoxSmall">&xE004;</x:String>
-    <x:String x:Key="Bus">&xE806;</x:String>
     <x:String x:Key="Bus">&xEB47;</x:String>
+    <x:String x:Key="BusOutline">&xE806;</x:String>
     <x:String x:Key="Calculator">&xE1D0;</x:String>
     <x:String x:Key="Calendar">&xE163;</x:String>
     <x:String x:Key="CalendarDay">&xE184;</x:String>
@@ -144,7 +144,7 @@
     <x:String x:Key="Clipboard">&xE77F;</x:String>
     <x:String x:Key="Clock">&xE121;</x:String>
     <x:String x:Key="Close">&xE106;</x:String>
-    <x:String x:Key="ClosedCaption">&xE7F0;</x:String>
+    <x:String x:Key="ClosedCaption">&xE190;</x:String>
     <x:String x:Key="Cloud">&xE753;</x:String>
     <x:String x:Key="Compare">&xE11E;</x:String>
     <x:String x:Key="Computer">&xE211;</x:String>
@@ -159,6 +159,7 @@
     <x:String x:Key="CursorDefault">&xE8B0;</x:String>
     <x:String x:Key="Delete">&xE107;</x:String>
     <x:String x:Key="Dialer">&xE75F;</x:String>
+    <x:String x:Key="Diamond">&xE18A;</x:String>
     <x:String x:Key="Direction">&xE816;</x:String>
     <x:String x:Key="Disk">&xE105;</x:String>
     <x:String x:Key="DiskAll">&xEA35;</x:String>
@@ -261,6 +262,7 @@
     <x:String x:Key="LaptopMonitor">&xE7F8;</x:String>
     <x:String x:Key="LaptopMonitorExtend">&xE7F7;</x:String>
     <x:String x:Key="LaptopPrinter">&xE772;</x:String>
+    <x:String x:Key="LaptopTablet">&xE212;</x:String>
     <x:String x:Key="Layers">&xE81E;</x:String>
     <x:String x:Key="Led">&xE781;</x:String>
     <x:String x:Key="Library">&xE1D3;</x:String>
@@ -273,7 +275,7 @@
     <x:String x:Key="ListCheckRtl">&xEA98;</x:String>
     <x:String x:Key="ListCollapse">&xE16A;</x:String>
     <x:String x:Key="ListExpand">&xE169;</x:String>
-    <x:String x:Key="ListRtl">&xEA42;</x:String>
+    <x:String x:Key="ListRtl">&xE175;</x:String>
     <x:String x:Key="ListSelect">&xE179;</x:String>
     <x:String x:Key="ListSelectRtl">&xE1EC;</x:String>
     <x:String x:Key="ListSelectUp">&xE17D;</x:String>
@@ -356,7 +358,7 @@
     <x:String x:Key="Refresh">&xE117;</x:String>
     <x:String x:Key="Region">&xE775;</x:String>
     <x:String x:Key="Remote">&xE951;</x:String>
-    <x:String x:Key="Rename">&xE8AC;</x:String>
+    <x:String x:Key="Rename">&xE13E;</x:String>
     <x:String x:Key="Repeat">&xE1CD;</x:String>
     <x:String x:Key="RepeatOnce">&xE1CC;</x:String>
     <x:String x:Key="RotateClockwise">&xE7AD;</x:String>
