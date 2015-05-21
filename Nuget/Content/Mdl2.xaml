@@ -176,12 +176,9 @@
     <x:String x:Key="Email">&xE119;</x:String>
     <x:String x:Key="EmailAddress">&xE168;</x:String>
     <x:String x:Key="EmailForward">&xE120;</x:String>
-    <x:String x:Key="EmailForward">&xE89C;</x:String>
     <x:String x:Key="EmailForwardRtl">&xE1A8;</x:String>
-    <x:String x:Key="EmailForwardRtl">&xEA56;</x:String>
     <x:String x:Key="EmailOpened">&xE166;</x:String>
     <x:String x:Key="EmailReply">&xE172;</x:String>
-    <x:String x:Key="EmailReply">&xE8CA;</x:String>
     <x:String x:Key="EmailReplyall">&xE165;</x:String>
     <x:String x:Key="EmailReplyallRtl">&xE1F2;</x:String>
     <x:String x:Key="EmailReplyRtl">&xE1AF;</x:String>
@@ -207,7 +204,6 @@
     <x:String x:Key="Flashlight">&xE754;</x:String>
     <x:String x:Key="Folder">&xE188;</x:String>
     <x:String x:Key="FolderMove">&xE19C;</x:String>
-    <x:String x:Key="FolderMove">&xE8DE;</x:String>
     <x:String x:Key="FolderOutline">&xE8B7;</x:String>
     <x:String x:Key="FolderPlus">&xE1DA;</x:String>
     <x:String x:Key="FolderRefresh">&xE1DF;</x:String>
@@ -235,7 +231,6 @@
     <x:String x:Key="HeartOutline">&xE006;</x:String>
     <x:String x:Key="HeartPulse">&xE95E;</x:String>
     <x:String x:Key="Help">&xE11B;</x:String>
-    <x:String x:Key="Help">&xE897;</x:String>
     <x:String x:Key="Home">&xEA8A;</x:String>
     <x:String x:Key="HomeOutline">&xE10F;</x:String>
     <x:String x:Key="HomeTree">&xE1C3;</x:String>
@@ -313,9 +308,7 @@
     <x:String x:Key="MessageVideo">&xE13B;</x:String>
     <x:String x:Key="Microphone">&xE1D6;</x:String>
     <x:String x:Key="Minus">&xE108;</x:String>
-    <x:String x:Key="Minus">&xE949;</x:String>
     <x:String x:Key="Monitor">&xE7F4;</x:String>
-    <x:String x:Key="Monitor">&xE7FB;</x:String>
     <x:String x:Key="MonitorDuplicate">&xE7F9;</x:String>
     <x:String x:Key="MonitorExtend">&xE7FA;</x:String>
     <x:String x:Key="MonitorSound">&xE7F3;</x:String>
@@ -347,7 +340,6 @@
     <x:String x:Key="PinLeft">&xE141;</x:String>
     <x:String x:Key="PinLeftColor">&xE841;</x:String>
     <x:String x:Key="Plus">&xE109;</x:String>
-    <x:String x:Key="Plus">&xE948;</x:String>
     <x:String x:Key="PlusMinus">&xE94D;</x:String>
     <x:String x:Key="Printer">&xE2F6;</x:String>
     <x:String x:Key="Printer3d">&xE2F7;</x:String>
@@ -425,15 +417,7 @@
     <x:String x:Key="Tram">&xEB4D;</x:String>
     <x:String x:Key="TramOutline">&xE7C0;</x:String>
     <x:String x:Key="Translate">&xE164;</x:String>
-    <x:String x:Key="Translate">&xE8C1;</x:String>
     <x:String x:Key="Undo">&xE10E;</x:String>
-    <x:String x:Key="Undo">&xE845;</x:String>
-    <x:String x:Key="Undo">&xE97A;</x:String>
-    <x:String x:Key="Unknown">&xE12C;</x:String>
-    <x:String x:Key="Unknown">&xE1E1;</x:String>
-    <x:String x:Key="Unknown">&xE1E4;</x:String>
-    <x:String x:Key="Unknown">&xE1EA;</x:String>
-    <x:String x:Key="Unknown">&xE82F;</x:String>
     <x:String x:Key="Unlock">&xE1F7;</x:String>
     <x:String x:Key="Upload">&xE11C;</x:String>
     <x:String x:Key="Uppercase">&xE84B;</x:String>

@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using Humanizer;
 using Newtonsoft.Json;
+using System.Collections;
+using System;
 
 namespace Mdl2Tool
 {
@@ -19,7 +21,7 @@ namespace Mdl2Tool
                 items = JsonConvert.DeserializeObject<TemplarianItems>(json);
             }
 
-            var actualItems = items.Items.Where(x => !x.Keywords.Contains("duplicate") && x.Name != "name").ToList();
+            var actualItems = items.Items.Where(x => !x.Keywords.Contains("duplicate") && x.Name != "name" && x.Name != "unknown").Distinct(new NameComparer()).ToList();
 
             var list = actualItems.Select(x => new TemplarianClass {Code = "&x" + x.Code + ";", Name = GetName(x.Name)}).OrderBy(x => x.Name).ToList();
 
@@ -83,6 +85,19 @@ namespace Mdl2Tool
             {
                 sr.Write(content);
             }
+        }        
+    }
+
+    internal class NameComparer : IEqualityComparer<TemplarianClass>
+    {
+        public bool Equals(TemplarianClass x, TemplarianClass y)
+        {
+            return x.Name.Equals(y.Name);
+        }
+
+        public int GetHashCode(TemplarianClass obj)
+        {
+            return obj.Name.GetHashCode();
         }
     }
 }

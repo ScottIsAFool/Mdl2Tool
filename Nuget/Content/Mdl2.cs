@@ -178,12 +178,9 @@ namespace Mdl2Tool
         public static string Email => "&xE119;";
         public static string EmailAddress => "&xE168;";
         public static string EmailForward => "&xE120;";
-        public static string EmailForward => "&xE89C;";
         public static string EmailForwardRtl => "&xE1A8;";
-        public static string EmailForwardRtl => "&xEA56;";
         public static string EmailOpened => "&xE166;";
         public static string EmailReply => "&xE172;";
-        public static string EmailReply => "&xE8CA;";
         public static string EmailReplyall => "&xE165;";
         public static string EmailReplyallRtl => "&xE1F2;";
         public static string EmailReplyRtl => "&xE1AF;";
@@ -209,7 +206,6 @@ namespace Mdl2Tool
         public static string Flashlight => "&xE754;";
         public static string Folder => "&xE188;";
         public static string FolderMove => "&xE19C;";
-        public static string FolderMove => "&xE8DE;";
         public static string FolderOutline => "&xE8B7;";
         public static string FolderPlus => "&xE1DA;";
         public static string FolderRefresh => "&xE1DF;";
@@ -237,7 +233,6 @@ namespace Mdl2Tool
         public static string HeartOutline => "&xE006;";
         public static string HeartPulse => "&xE95E;";
         public static string Help => "&xE11B;";
-        public static string Help => "&xE897;";
         public static string Home => "&xEA8A;";
         public static string HomeOutline => "&xE10F;";
         public static string HomeTree => "&xE1C3;";
@@ -315,9 +310,7 @@ namespace Mdl2Tool
         public static string MessageVideo => "&xE13B;";
         public static string Microphone => "&xE1D6;";
         public static string Minus => "&xE108;";
-        public static string Minus => "&xE949;";
         public static string Monitor => "&xE7F4;";
-        public static string Monitor => "&xE7FB;";
         public static string MonitorDuplicate => "&xE7F9;";
         public static string MonitorExtend => "&xE7FA;";
         public static string MonitorSound => "&xE7F3;";
@@ -349,7 +342,6 @@ namespace Mdl2Tool
         public static string PinLeft => "&xE141;";
         public static string PinLeftColor => "&xE841;";
         public static string Plus => "&xE109;";
-        public static string Plus => "&xE948;";
         public static string PlusMinus => "&xE94D;";
         public static string Printer => "&xE2F6;";
         public static string Printer3d => "&xE2F7;";
@@ -427,15 +419,7 @@ namespace Mdl2Tool
         public static string Tram => "&xEB4D;";
         public static string TramOutline => "&xE7C0;";
         public static string Translate => "&xE164;";
-        public static string Translate => "&xE8C1;";
         public static string Undo => "&xE10E;";
-        public static string Undo => "&xE845;";
-        public static string Undo => "&xE97A;";
-        public static string Unknown => "&xE12C;";
-        public static string Unknown => "&xE1E1;";
-        public static string Unknown => "&xE1E4;";
-        public static string Unknown => "&xE1EA;";
-        public static string Unknown => "&xE82F;";
         public static string Unlock => "&xE1F7;";
         public static string Upload => "&xE11C;";
         public static string Uppercase => "&xE84B;";
