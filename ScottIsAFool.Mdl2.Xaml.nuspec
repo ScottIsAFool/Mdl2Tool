@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>ScottIsAFool.Mdl2.Xaml</id>
+        <version>1.0.0</version>
+        <title>ScottIsAFool.Mdl2.Xaml</title>
+        <authors>scott</authors>
+        <owners>scott</owners>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>ScottIsAFool.Mdl2.Xaml</description>
+        <summary>ScottIsAFool.Mdl2.Xaml</summary>
+        <copyright>Copyright © scott</copyright>
+        <tags>ScottIsAFool.Mdl2.Xaml</tags>
+    </metadata>
+    <files>
+        <file src="Nuget\Content\Mdl2.xaml" target="Content\Mdl2.xaml" />
+    </files>
+</package>
