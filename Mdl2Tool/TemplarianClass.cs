@@ -26,7 +26,7 @@ namespace Mdl2Tool
         public string Unicode { get; set; }
 
         [JsonProperty("keywords")]
-        public List<string> Keywords { get; set; }
+        public object Keywords { get; set; }
     }
 
 }
