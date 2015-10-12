@@ -2,7 +2,6 @@ namespace Mdl2Tool
 {
     public class Mdl2
     {
-        public static string  => "\uE18E";
         public static string Accept => "\uE8FB";
         public static string Accounts => "\uE910";
         public static string Add => "\uE710";

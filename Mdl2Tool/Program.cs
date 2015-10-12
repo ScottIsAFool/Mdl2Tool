@@ -21,7 +21,7 @@ namespace Mdl2Tool
                 items = JsonConvert.DeserializeObject<TemplarianItems>(json);
             }
 
-            var actualItems = items.Items.Where(x => !x.Keywords.ToString().Contains("duplicate") && x.Name != "name" && x.Name != "unknown").Distinct(new NameComparer()).ToList();
+            var actualItems = items.Items.Where(x => !x.Keywords.ToString().Contains("duplicate") && x.Name != "name" && x.Name != "unknown" && !string.IsNullOrEmpty(x.Name)).Distinct(new NameComparer()).ToList();
 
             var list = actualItems.Select(x => new TemplarianClass {Code = "&#x" + x.Code + ";", Name = GetName(x.Name), Unicode= "\\u" + x.Code}).OrderBy(x => x.Name).ToList();
 
