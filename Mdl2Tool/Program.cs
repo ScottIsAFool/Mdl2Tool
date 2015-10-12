@@ -23,7 +23,7 @@ namespace Mdl2Tool
 
             var actualItems = items.Items.Where(x => !x.Keywords.Contains("duplicate") && x.Name != "name" && x.Name != "unknown").Distinct(new NameComparer()).ToList();
 
-            var list = actualItems.Select(x => new TemplarianClass {Code = "&#x" + x.Code + ";", Name = GetName(x.Name)}).OrderBy(x => x.Name).ToList();
+            var list = actualItems.Select(x => new TemplarianClass {Code = "&#x" + x.Code + ";", Name = GetName(x.Name), Unicode= "\\u" + x.Code}).OrderBy(x => x.Name).ToList();
 
             var sb = CreateCsFile(list);
             
@@ -60,7 +60,7 @@ namespace Mdl2Tool
 
             foreach (var item in list)
             {
-                sb.AppendLine(string.Format("        public static string {0} => \"{1}\";", item.Name, item.Code));
+                sb.AppendLine(string.Format("        public static string {0} => \"{1}\";", item.Name, item.Unicode));
             }
 
             sb.AppendLine("    }");

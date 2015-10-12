@@ -22,6 +22,9 @@ namespace Mdl2Tool
         [JsonProperty("name")]
         public string Name { get; set; }
 
+        [JsonProperty("unicode")]
+        public string Unicode { get; set; }
+
         [JsonProperty("keywords")]
         public List<string> Keywords { get; set; }
     }
